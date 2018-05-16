@@ -6,7 +6,7 @@
  * Time: 9:34 AM
  */
 
-namespace Laraveldaily\Timezones;
+namespace HungDangNtq\Timezones;
 
 use App\Http\Controllers\Controller;
 use Carbon\Carbon;

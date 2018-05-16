@@ -1,5 +1,5 @@
 {
-    "name": "laraveldaily/timezones",
+    "name": "HungDangNtq/timezones",
     "description": "Demo-package to show time",
     "type": "library",
     "license": "MIT12345678kalafakl",
@@ -16,13 +16,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Laraveldaily\\Timezones\\TimezonesServiceProvider"
+                "HungDangNtq\\Timezones\\TimezonesServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-0": {
-            "Laraveldaily\\Timezones\\": "src"
+            "HungDangNtq\\Timezones\\": "src"
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace  Laraveldaily\Timezones;
+namespace  HungDangNtq\Timezones;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -24,6 +24,6 @@ class TimezonesServiceProvider extends ServiceProvider
     public function register()
     {
         include __DIR__.'/routes/web.php';
-        $this->app->make('Laraveldaily\Timezones\TimezonesController');
+        $this->app->make('HungDangNtq\Timezones\TimezonesController');
     }
 }
